@@ -1,0 +1,43 @@
+body {
+
+    background-image: 
+url('sky_background.jpg');
+
+background-size: cover;
+
+background-repeat: no-repeat;
+
+}
+
+header {
+
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+   margin-left: 10px;
+}
+
+
+.risky img {
+
+width: 100px;
+height: auto;
+margin-right: 30px;
+margin-top: 20px;
+
+}
+
+
+
