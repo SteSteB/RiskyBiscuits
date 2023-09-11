@@ -1,0 +1,159 @@
+body{
+    background-image: url(images/sky_background.jpg);
+    background-repeat: cover;
+  }
+  body {
+      
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+  }
+  
+  .container {
+      width: 70%;
+      margin: 0 auto;
+      text-align: center;
+  }
+  
+  .container button {    
+     font-size: large;  
+      display: inline-block;
+      margin: 25px 10px;
+      padding: 25px 50px;
+      border-radius: 10px;
+      border: 1px solid rgb(0, 0, 0);
+      background-color: rgb(254, 227, 188);
+      color: rgb(225, 100, 56);
+      cursor: pointer;
+  }
+  
+  
+  .container button:hover {
+    
+    background-color: rgb(225, 100, 56);
+    color: rgb(254, 227, 188);
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .container_footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+  .container_footer button {      
+    font-size: large;
+    display: inline-block;
+    margin: 25px 10px;
+    padding: 25px 160px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+
+
+.container_footer button:hover {
+    background-color: rgb(254, 227, 188);
+    color: rgb(225, 100, 56);
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+h1 {
+    color: #FEE3BC;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+div.Imagesweektwo {
+    border: transparent;
+  }
+  
+  div.Imagesweektwo:hover {
+    border: 1px solid #777;
+  }
+  
+  div.Imagesweektwo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.description {
+    padding: 15px;
+    text-align: center;
+    color: #FEE3BC;
+    font-weight: bold;
+  }
+
+  div.desclist {
+
+    color: white;
+
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  header, footer {
+                  padding: 10px 0;
+      overflow: hidden;
+  }
+  
+  header img, footer img {
+      width: 15%;
+  }
+  
+  .logo-left {
+      float: left;
+  }
+  
+  .logo-right {
+      float: right;
+  }
+  
+  header a, footer a {
+      text-decoration: none;
+  }
+
+  
+
