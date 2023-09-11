@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/sky_background.jpg);
+    background-image: url(./sky_background.jpg);
     background-repeat: cover;
   }
   body {
@@ -167,25 +167,42 @@ body{
     padding: 10px;
     margin: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
 }
+/* .content figure{
+    width:30%;
+} */
 
-.content img {
-    width: 25%;
+#drawing {
+    width: 100%;
+    /* align-items: center; */
 }
-
+.content figcaption {
+    font-size: 10pt;
+}
 
 .content h3 {
     color: rgb(255, 255, 255);
-    text-align: center;
+    text-align: center; 
     width: 70%;
+    font-size: 20pt;
 }
 
 .content h2 {
   color: rgb(255, 255, 255);
   text-align: center;
   width: 70%;
+}
+
+#list {
+    font-weight: 600;
+}
+.content li {
+    font-weight: 100;
 }
   
   header, footer {
@@ -208,5 +225,3 @@ body{
   header a, footer a {
       text-decoration: none;
   }
-
-  
