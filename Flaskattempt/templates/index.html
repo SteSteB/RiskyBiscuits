@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Risky Biscuits</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='site.css')}}" />
-</head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='static.css') }}">
 </head>
 <body>
 
     
     <header>
-       <a href="http://www.sky.com" target="_blank" rel="noopener noreferrer"><img src="./Sky_Master_Brand_Logo_LARGE_RGB.png" alt="Logo" class="logo-left"></a>
-        <a href="./index.html"><img src="./Risky Biscuits.png" alt="Risky Biscuits Logo" class="logo-right"></a>
+       <a href="http://www.sky.com" target="_blank" rel="noopener noreferrer"><img src="{{ url_for('static', filename='images/Sky_Master_Brand_Logo_LARGE_RGB-2.png') }}" alt="Logo" class="logo-left"></a>
+        <a href="./index.html"><img src="{{ url_for('static', filename='images/Risky Biscuits.png') }}" alt="Risky Biscuits Logo" class="logo-right"></a>
         <div class="container">
             <a href="./Week1.html"><button>Week 1</button></a>
             <a href="./Week2.html"><button>Week 2</button></a>
@@ -23,7 +22,7 @@
     </header>
     
     <div class="content">
-        <img src="./Risky Biscuits.png" alt="Risky Biscuits Logo">
+        <img src="{{ url_for('static', filename='images/Risky Biscuits.png') }}" alt="Risky Biscuits Logo">
 
         <!-- Enter Any Information below here and Style it how you like -->
 
