@@ -179,6 +179,10 @@ body{
 /* .content figure{
     width:30%;
 } */
+#nextstg {
+  width: 60%;
+  align-items: center;
+}
 
 #drawing {
     width: 100%;
@@ -207,6 +211,8 @@ body{
 .content li {
     font-weight: 100;
 }
+
+
   
   header, footer {
                   padding: 10px 0;
