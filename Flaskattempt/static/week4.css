@@ -174,7 +174,7 @@ body{
     align-items: center;
     justify-content: space-between;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15pt;
+    font-size: 20pt;
 }
 /* .content figure{
     width:30%;
@@ -193,13 +193,20 @@ body{
     width: 100%;
     /* align-items: center; */
 }
+#simpleflask {
+  width: 70%;
+  margin-left: 19vw;
+}
+#simplecap {
+  margin-left: 19vw;
+}
 .content figure {
   display: flex;
   flex-direction: column;
 
 }
 .content figcaption {
-    font-size: 10pt;
+    font-size: 15pt;
 }
 
 .content h3 {
