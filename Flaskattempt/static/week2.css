@@ -42,10 +42,12 @@ body{
   
   .container_footer {
     width: 100%;
+    position: fixed;
+    bottom: 0;
     margin: 0 auto;
     text-align: center;
+    align-items: baseline;
 }
-
 
   .container_footer button {      
     font-size: large;
