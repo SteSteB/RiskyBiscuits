@@ -195,7 +195,9 @@ body{
 }
 #run {
   width: 90%;
+  margin-left: 5vw;
 }
+
 #simpleflask {
   width: 70%;
   margin-left: 19vw;
