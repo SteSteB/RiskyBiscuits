@@ -193,6 +193,9 @@ body{
     width: 100%;
     /* align-items: center; */
 }
+#run {
+  width: 90%;
+}
 #simpleflask {
   width: 70%;
   margin-left: 19vw;
