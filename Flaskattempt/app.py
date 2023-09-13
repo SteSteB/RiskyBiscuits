@@ -38,3 +38,26 @@ def week4():
 @app.route("/week5/")
 def week5():
     return render_template("week5.html")
+
+@app.route("/kanban")
+def kanban():
+    return render_template("kanban.html")
+
+@app.route("/oscar")
+def oscar():
+    return render_template("oscar.html")
+
+@app.route("/requirements")
+def requirements():
+    return render_template("requirements.html")
+
+@app.route("/threatmodelling")
+def threatmodelling():
+    return render_template("threatmodelling.html")
+    
+
+@app.route("/stride")
+def stride():
+    return render_template("stride.html")
+
+
