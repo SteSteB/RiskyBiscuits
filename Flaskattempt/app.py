@@ -39,6 +39,18 @@ def week4():
 def week5():
     return render_template("week5.html")
 
+@app.route("/manifesto")
+def manifesto():
+    return render_template("manifesto.html")
+
+@app.route("/moscow")
+def moscow():
+    return render_template("moscow.html")
+
+@app.route("/scrum")
+def scrum():
+    return render_template("scrum.html")
+
 @app.route("/kanban")
 def kanban():
     return render_template("kanban.html")
@@ -51,6 +63,19 @@ def oscar():
 def requirements():
     return render_template("requirements.html")
 
+@app.route("/process")
+def process():
+    return render_template("process.html")
+
+@app.route("/stake")
+def stake():
+    return render_template("stake.html")
+
+@app.route("/secure")
+def secure():
+    return render_template("secure.html")
+
+
 @app.route("/threatmodelling")
 def threatmodelling():
     return render_template("threatmodelling.html")
@@ -59,5 +84,9 @@ def threatmodelling():
 @app.route("/stride")
 def stride():
     return render_template("stride.html")
+
+@app.route("/hack")
+def hack():
+    return render_template("hack.html")
 
 

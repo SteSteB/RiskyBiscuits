@@ -32,7 +32,7 @@
                     
         <div class="responsive">
         <div class="Imagesweektwo">
-                <a target="_blank" href="./AgileManifesto.jpg">
+                <a target="_blank" href="{{ url_for('manifesto') }}">
                 <img src="{{ url_for('static', filename='images/AgileManifesto.jpg') }}" alt="agile">
                 </a>
         <div class="description">The Agile Manifesto:</div>
@@ -55,7 +55,7 @@
                       
         <div class="responsive">
         <div class="Imagesweektwo">
-                    <a target="_blank" href="moscow.jpg">
+                    <a target="_blank" href="{{ url_for('moscow') }}">
                     <img src="{{ url_for('static', filename='images/moscow.jpg') }}" alt="mosocw">
                     </a>
         <div class="description">MoSCoW Prioritisation</div>
@@ -75,7 +75,7 @@
                       
          <div class="responsive">
         <div class="Imagesweektwo">
-                 <a target="_blank" href="./Scrum-Roles.jpg">
+                 <a target="_blank" href="{{ url_for('scrum') }}">
                 <img src="{{ url_for('static', filename='images/Scrum-Roles.jpg') }}" alt="Scrum Roles">
                  </a>
         <div class="description">Fundamentals of Scrum</div>
